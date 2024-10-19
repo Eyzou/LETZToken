@@ -1,0 +1,46 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: $grey;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  font-family: $open, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $montserrat, sans-serif;
+}
+
+p {
+  font-family: $open, sans-serif;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  outline: none;
+  border: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
